@@ -11,7 +11,7 @@
 }
 
 body{
-    background-color: #d9dcd6;
+    background-color:#ffffff;
 }
 
 
@@ -21,13 +21,12 @@ body{
     background-color: var(--header-color);
     color: var(--font-color);
     font-weight:500;
-    content:
-}
+    }
 
 .header h1{
     display: inline-block;
     font-size: 48px;
-    
+        
 }
 
 .header div{
@@ -53,42 +52,113 @@ a{
 
 
 .footer{
-    margin-bottom: 20px;
-    padding: 5px;
+    padding: 15px;
     height: 100px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:var(--header-color);
     color: var(--font-color);
     text-decoration: none;
     
+
+       
 }
 
+.footer div{
+    padding top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    
+}
+
+.footer div ul {
+    list-style-type: none;
+}
+.footer div ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.footer h1{
+   display: inline-block;
+   font-size:initial;
+}
 .card-column{
     display: flex;
-    flex: 1 0 100%;
-    padding: 1.5rem;
+  
+    padding: 100px;
    transition: flex-basis 500ms linear;
-    margin bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
     background-image: var(--gradient);
-   
+    width: 40%;
+    margin-left: 400px;
+    border: 2px solid black;
+  
     }
 
+    .card-column1{
+        display: flex;
+        padding: 200px;
+        transition: flex-basis 500ms linear;
+        margin-bottom: 1.5rem;
+        margin-top: 1.5rem;
+        width: 40%;
+        margin-left: 400px;
+      
+        
+
+      
+        }
     .myphoto{
         border: 2px solid hotpink;
+        height: 240px;
+        width: 240px;
+        float: left;
     }
     
     .aboutme{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        padding: 30px;
+
     }
     
+.code-card:hover, .card-column1, .card-column2
+.card-header:hover .code-header{
+    box-shadow:inset 0px 0px 8px var(--font-color), 0 0 15px var(--font-color);
+
+} 
+.code-header{
+
+}
+
+.homework1{
+    display: flex;
+    align-items: baseline;
+    width: 250%;
+    height: 250%;
+    margin-left: -195px;
+    border: 2px solid black;
+
+  
+
+}
+#homework1{
+    margin-bottom: -150px;
+}
 
 
 @media screen and (max-width: 768px){
-main {
-    width: 100%;
-   }
-
+.card-column, .card-column2, .card-column1{
+    flex: 0 0 50%;
+    max-width: 50%;
 }
+.card-column:last-child{
+    flex-grow: 1;
 }
 
-
+@media screen and (min-width: 992px) {
+    .header {
+        width: 75%;
+    }}
+]
