@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 500px) {
+    .header {
+        font-size:25px; 
+    }
+}
+    @media screen and (max-width:920px){
+        .header div ul li{
+                  
+    }
+    
+    @media screen and (max-width:1056px) {
+        p {
+            
+        }
+    
+    }
+    
+    @media screen and (max-width:500px) {
+        img{
+            
+        }
+    }
+    
+
+
+}
