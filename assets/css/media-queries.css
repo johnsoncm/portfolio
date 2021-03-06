@@ -2,6 +2,12 @@
 /* Phone view */
 
 @media screen and (max-width 576px) {
+
+    .homework1{
+        width: 50;
+        height: 50%;
+    }
+
     .homework1, .homework2, .homework3, .myphoto {
         display: none;
     }

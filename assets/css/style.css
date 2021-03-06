@@ -32,9 +32,13 @@
   .header h1{
       display: inline-block;
       font-size: 48px;
-          
+               
   }
   
+  h1{
+    text-align: center;
+}
+
   .header div{
       padding-top:15px;
       margin-left: 20px;
@@ -176,10 +180,11 @@
 
 .footer div ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
 }
 .footer div ul li{
-    display: inline-block;
-    margin-left: 25px;
+    flex:0;
 }
 
 .footer h1{
