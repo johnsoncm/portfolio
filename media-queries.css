@@ -1,27 +1,85 @@
 
-@media screen and (max-width: 500px) {
-    .header {
-        font-size:25px; 
+/* Phone view */
+
+@media screen and (max-width 576px) {
+    .homework1, .homework2, .homework3, .myphoto {
+        display: none;
     }
+ 
+ .header{
+     height: 175px;
+ }
+  
+    .aboutme, #aboutme, #work, .card2, .footer, .header{
+        height: auto;
+    }  
+ 
+ .card {
+    width: 50%;
 }
-    @media screen and (max-width:920px){
-        .header div ul li{
-                  
-    }
+
+#homework1{
+    width:25%;
+    height: 25%;
+}
+
+}
+
+/* iPad view*/
+
+@media screen and (max-width:768px){
+  
+    .header{
+        height: 225px;
+
     
-    @media screen and (max-width:1056px) {
-        p {
-            
-        }
-    
     }
-    
-    @media screen and (max-width:500px) {
-        img{
-            
-        }
+  
+
+    .card{
+        width: 100%;
     }
+
+   
+}
     
 
 
+/* Desktop view */
+
+@media screen and (max-width: 992px){
+    .card {
+        width: 50%;
+    }
+    .header{
+        display:flex;
+        flex-direction: column;
+    }
+
+
 }
+
+
+/* Max view */
+
+@media screen and (max-width: 1245px) {
+    --------------------
+ 
+ .header{
+     height: 175px;
+ }
+
+ .aboutme, #aboutme, #work, .card2, .footer, .header{
+     height: auto;
+ }   
+ 
+ .card {
+    width: 50%;
+}
+
+
+
+}
+   
+  
+  

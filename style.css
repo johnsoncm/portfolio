@@ -1,30 +1,33 @@
+/* Global Properties */
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;  
   }
   
+/* css variables and properties */
+
   :root{
-      --
- 
-      --header-color: #6991db;
+      --background-color1: #FDF7FF;
+     --header-color:grey;
       --font-color:  #ffffff;
+      --background-color2: cornsilk;
+      --title-font: 'Gruppo', cursive;
+      --nav-font: 'Pontano Sans', sans-serif;
+
   }
   
-  body{
-      background-color:#ffffff;
-  }
-  
+
+  /* Header styling */
   
   .header{
-      padding: 20px;
-      font-family: 'Gruppo', cursive;
-      background-color: grey;
-      color:var(--font-color);
-     
-      
-     
-      }
+    padding: 20px;
+    font-family: var(--title-font);
+    background-color: var(--header-color);
+    color:var(--font-color);
+   
+    }
   
   .header h1{
       display: inline-block;
@@ -36,15 +39,24 @@
       padding-top:15px;
       margin-left: 20px;
       float: right;
-      font-family:'Pontano Sans', sans-serif;
+      font-family:var(--nav-font);
       font-size: 20px;
   }
-  
   
   
   .header div ul li {
       display: inline-block;
       margin-left: 25px;
+  }
+  
+  .bold{
+      font-weight:bolder;
+      padding: 15px;
+  }
+
+  .spacing{
+      padding: 15px;
+      margin-left: 50px;
   }
   
   a{
@@ -53,104 +65,125 @@
   
   }
   
-  
-  .footer{
-      padding: 35px;
-      height: 100px;
-      font-family: 'Gruppo', cursive;
-      background-color: grey;
-      color:var(--font-color);
-      text-decoration: none;
 
-         
-  }
-  
-  .footer div{
-      padding top: 15px;
-      margin-right: 20px;
-      float: right;
-      font-size: 20px;
-      font-family:'Pontano Sans', sans-serif;
-      
-  }
-  
-  .footer div ul {
-      list-style-type: none;
-  }
-  .footer div ul li{
-      display: inline-block;
-      margin-left: 25px;
-  }
-  
-  .footer h1{
-     display: inline-block;
-     font-size:35px;
+/* About Me section */
 
-  }
-
-
-
-  .myphoto{
-    border: 2px solid hotpink;
-    height: 240px;
-    width: 240px;
-    float: left;
-    margin-left: -60px;
-    margin-top: -60px;
-}
 .aboutme{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--nav-font);
     padding: 30px;
     display:inline-block;
     text-align:center;
-
-
+    background-color: var(--background-color1);
 }
+
+.myphoto{
+    border: 2px solid hotpink;
+    height: 240px;
+    width: 240px;  
+}
+
+
+/* Portfolio section */
+
+
+   
+#aboutme{
+    
+    :var(--background-color1);
+    
+}
+
+.work{
+    border-top: 2px solid hotpink;
+    border-bottom: 2px solid hotpink;
+}
+
 .homework1{
-    height:250px;
+    height:450px;
     float:right;
 
 
 }
+
+.homework{
+    height: 250px;
+    width: 250px;
+   
+}
+
 .homework2{
     height: 250px;
     width: 250px;
 
 }
-#homework3{
-    float: right;
+
+.homework3{
     display: flex;
+    flex-direction: row-reverse;
     height:250px;
     width: 250px;
-   
-   
-}
-#aboutme{
-    background:rgb(211, 238, 211);
-}
+       
+}   
 
 #work{
-    background:cornsilk;
+    background:var(--background-color2);
     padding:75px;
 }
 
 .card2{
-    background:rgb(211, 238, 211);
+    background:var(--background-color1);
     display: flex;
     flex-direction: column;
-}var names   
-}
-.work-cards{
-    display: flex;
-    flex-direction: column;
-}
-.card{
-    display: flex;
-    margin-bottom: 50px;
-    
-    
+   
 }
 
 .card-text{
     padding: 0 40px;
+    
+}
+
+
+.card{
+    display: flex;
+    margin-bottom: 50px;
+    font-family: var(--nav-font);
+    
+    
+}
+
+
+
+/*Contact information and footer */
+
+.footer{
+    padding: 35px;
+    height: 100px;
+    font-family: var(--title-font);
+    background-color:var(--header-color);
+    color:var(--font-color);
+    text-decoration: none;
+
+       
+}
+
+.footer div{
+    padding top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: var(--nav-font); 
+}
+
+.footer div ul {
+    list-style-type: none;
+}
+.footer div ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.footer h1{
+   display: inline-block;
+   font-size:35px;
+
 }
