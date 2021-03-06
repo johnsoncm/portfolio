@@ -4,7 +4,7 @@
 
 **![Screenshot of Website](./assets/images/Portfolio_Screenshot1.png)**
 **![Screenshot of Website](./assets/images/Portfolio_Screenshot2.png)**
-**![Screenshot of Websit](./assets/images/Porfolio_Screenshot3.png)**
+**![Screenshot of Website](./assets/images/Porfolio_Screenshot3.png)**
 
 
 The codebase was developed to present my name, a recent photo, and links to sections about my work and how to contact me.
