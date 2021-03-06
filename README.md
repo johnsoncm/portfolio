@@ -1,6 +1,6 @@
 # **portfolio**
 
-[Link to Website] {https://johnsoncm.github.io/portfolio/.}
+[Link to Website] { https://johnsoncm.github.io/portfolio/}
 
 **![Screenshot of Website](./assets/images/Portfolio_Screenshot1.png)**
 **![Screenshot of Website](./assets/images/Portfolio_Screenshot2.png)**
