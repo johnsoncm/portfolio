@@ -17,3 +17,11 @@ When the applications are clicked, they take you to the deployed applications. F
 
 When the user resizes the page or views the site on various screens and devices, they are presented with a responsive layout that adapts to their viewport.
 
+Technologies Used:
+HTML
+CSS
+
+Contact Info:
+Casey Johnson
+johnsoncm3@gmail.com
+
